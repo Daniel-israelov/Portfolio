@@ -1,0 +1,98 @@
+body {
+    padding: 2%;
+    background-color: #191a22;
+    /* background-color: #33343F; */
+}
+
+#header_name {
+    font-size: larger;
+}
+
+hr {
+    border-color: white;
+    width: 100;
+}
+
+#navbar div {
+    position: relative;
+    display: inline-flex;
+}
+
+#navbar ul {
+    padding: 0;
+    list-style: none;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    color: wheat;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 5px;
+}
+
+#navbar a:hover,
+#bottom-div a:hover,
+footer a:hover {
+    color: rgb(82, 175, 94);
+}
+
+#main-section {
+    background: url('../IMAGES/laptop_background.jpg');
+    background-size: 100%;
+    background-position: center;
+    border-radius: 15px;
+}
+
+#main-section-content {
+    color: white;
+    padding: 10%;
+    padding-top: 3%;
+    padding-left: 5%;
+}
+
+#projects-section,
+#about-section,
+#recruiters-section {
+    display: inline-flex;
+    width: 100%;
+}
+
+#project-div {
+    position: relative;
+    padding: 2%;
+    background-color: #2c2d38;
+    /* background-color: #4b4d5f; */
+    text-align: center;
+    color: white;
+    margin: 0.5%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#bottom-div {
+    position: absolute;
+    bottom: 0;
+    top: 88%;
+    left: 0;
+    right: 0;
+}
+
+#bottom-div a {
+    color: wheat;
+}
+
+footer {
+    margin-top: 2%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    color: wheat;
+    text-decoration: none;
+}
