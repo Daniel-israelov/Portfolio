@@ -1,7 +1,6 @@
 document.querySelector("a[href='#projects-header']").addEventListener('click', function () { blink('projects-section') });
 document.querySelector("a[href='#about-header']").addEventListener('click', function () { blink('about-section') });
 document.querySelector("a[href='#recruiter-header']").addEventListener('click', function () { blink('recruiters-section') });
-document.querySelector("a[href='#cv-header']").addEventListener('click', function () { blink('cv-links') });
 document.querySelector("a[href='#footer']").addEventListener('click', function () { blink('footer') });
 
 function blink(tag_id) {
