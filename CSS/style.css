@@ -27,7 +27,8 @@ hr {
     display: inline;
 }
 
-#navbar a {
+#navbar a,
+#proG {
     color: wheat;
     text-decoration: none;
     font-size: 18px;
@@ -36,7 +37,8 @@ hr {
 
 #navbar a:hover,
 #bottom-div a:hover,
-footer a:hover {
+footer a:hover,
+#proG:hover {
     color: rgb(82, 175, 94);
 }
 
