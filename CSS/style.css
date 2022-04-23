@@ -1,7 +1,6 @@
 body {
     padding: 2%;
     background-color: #191a22;
-    /* background-color: #33343F; */
 }
 
 #header_name {
@@ -67,7 +66,6 @@ footer a:hover,
     position: relative;
     padding: 2%;
     background-color: #2c2d38;
-    /* background-color: #4b4d5f; */
     text-align: center;
     color: white;
     margin: 0.5%;
