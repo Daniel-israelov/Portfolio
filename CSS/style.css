@@ -24,7 +24,7 @@ body {
 hr {
     border-color: wheat;
     width: 100%;
-    height: 1px;
+    height: 0.5px;
     background: linear-gradient(-45deg, #000000, #be4272, #23a6d5, #135e4c);
     animation: gradient 15s ease infinite;
     background-size: 400% 400%;
