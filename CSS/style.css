@@ -55,6 +55,7 @@ hr {
 #navbar a:hover,
 #bottom-div a:hover,
 footer a:hover,
+section a:hover,
 #proG:hover {
     color: rgb(82, 175, 94);
 }
@@ -71,6 +72,11 @@ footer a:hover,
     padding: 10%;
     padding-top: 3%;
     padding-left: 5%;
+}
+
+section h4 {
+    margin-top: -3%;
+    margin-bottom: 7%;
 }
 
 #projects-section,
@@ -92,18 +98,6 @@ footer a:hover,
     border-radius: 15px;
 }
 
-#bottom-div {
-    position: absolute;
-    bottom: 0;
-    top: 88%;
-    left: 0;
-    right: 0;
-}
-
-#bottom-div a {
-    color: wheat;
-}
-
 footer {
     margin-top: 2%;
     width: 100%;
@@ -111,7 +105,8 @@ footer {
     color: white;
 }
 
-footer a {
+footer a,
+section a {
     color: wheat;
     text-decoration: none;
 }
