@@ -67,7 +67,7 @@ section a:hover,
     border-radius: 15px;
 }
 
-#main-section h1{
+#main-section h1 {
     font-size: 500%;
 }
 
@@ -121,10 +121,11 @@ section a {
     #main-section {
         background: url("../IMAGES/laptop_background.jpg");
         background-size: 200%;
-        background-position:left;
+        background-position: left;
         border-radius: 15px;
     }
-    #main-section h1{
+
+    #main-section h1 {
         font-size: 200%;
     }
 
@@ -139,7 +140,7 @@ section a {
     #about-section,
     #recruiters-section {
         font-family: Georgia, 'Times New Roman', Times, serif;
-        display:block;
+        display: block;
         width: 100%;
     }
 
@@ -150,6 +151,7 @@ section a {
         text-align: center;
         color: white;
         margin: 0.5%;
+        margin-bottom: 1.5%;
         width: 95%;
         border-radius: 15px;
     }
